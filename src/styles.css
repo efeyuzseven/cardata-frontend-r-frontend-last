@@ -1,0 +1,105 @@
+.ant-card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+    transition: all 0.4s ease;
+}
+
+.ant-table-row.selected-row .stock-things-past,
+.ant-table-row.selected-row .past-checkbox,
+.ant-table-row.selected-row .new-checkbox,
+.ant-table-row.selected-row .stock-things-new {
+    background-color: rgb(86, 145, 200) !important;
+}
+
+.stock-things-past {
+    background-color: #EBEBEB !important;
+    text-align: center !important;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    padding: 0% !important;
+    padding-inline: 10px !important;
+    white-space: nowrap;
+}
+
+.past-checkbox {
+    background-color: #EBEBEB !important;
+    /* Açık turuncu renk */
+    text-align: start !important;
+    /* Başlıkları ortala */
+    padding: 0px !important;
+}
+
+.past-title {
+    background-color: #EBEBEB !important;
+    /* Açık turuncu renk */
+    text-align: center !important;
+    /* Başlıkları ortala */
+    line-height: 1.5714285714285714;
+    padding-inline: 5px !important;
+    padding: 0% !important;
+}
+
+.new-checkbox {
+    background-color: #6699FF !important;
+    /* Açık turuncu renk */
+    text-align: start !important;
+    /* Başlıkları ortala */
+    padding: 0px !important;
+}
+
+.new-title {
+    background-color: #6699FF !important;
+    /* Açık turuncu renk */
+    text-align: center !important;
+    /* Başlıkları ortala */
+    line-height: 1.5714285714285714;
+    padding-inline: 5px !important;
+    padding: 0% !important;
+}
+
+.stock-things-new {
+    background-color: #6699FF !important;
+    text-align: center !important;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    padding: 0% !important;
+    padding-inline: 10px !important;
+    white-space: nowrap;
+}
+
+.small-font-table {
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    padding: 0% !important;
+    padding-inline: 10px !important;
+    white-space: nowrap;
+}
+
+.ant-table-row.selected-row {
+    background-color: rgb(86, 145, 200) !important;
+    position: relative;
+    /* Pozisyonu relative yaparak z-index'in çalışmasını sağlayın */
+    z-index: 1;
+    /* z-index değeri diğer elemanların üzerinde olacak şekilde belirleyin */
+}
+
+.ant-table-tbody>tr:hover>td {
+    background-color: rgb(86, 145, 200) !important;
+}
+
+.ant-table-wrapper .ant-table-tbody>tr>td {
+    border-bottom: 0px solid #f0f0f0;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>td {
+    border-bottom: 0px solid #f0f0f0;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    width: 0px;
+    /* width'i 0px olarak ayarlıyoruz */
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th {
+    border-bottom: 0px solid #f0f0f0;
+}
